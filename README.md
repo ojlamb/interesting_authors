@@ -1,2 +1,5 @@
-# interesting_authors
-project for interestingauthors.com
+#### InterestingAuthors.com
+* Hub for independent authors
+* Platform for marketing books
+* Medium for publishing blogs and blurbs
+* 
