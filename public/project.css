@@ -1,0 +1,69 @@
+@media (max-width: 767px) {
+  .ui.grid>.documentview.column:not(.row) {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 80vh;
+    overflow: scroll;
+    display: none;
+  }
+}
+
+/*******************************
+            Nav Bar
+*******************************/
+.ui.menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    background: #F26D87;
+    font-weight: 400;
+    min-height: 2.85714286em;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: 2.85714286em;
+    color: #FFF !important;
+}
+.ui.menu .item {
+    background: 0 0;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-right: 15px;
+    text-transform: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+    transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+}
+.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover{
+  color:#FFF;
+}
+
+.ui.menu .dropdown.item .menu {
+    left: 0;
+    min-width: calc(100% - 1px);
+    background: #FFF;
+    margin: 0;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+}
+
+.ui.stackable.menu .item {
+    padding: 4px;
+    text-align: center;
+}
+
+.ui.menu .item:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0px;
+}
