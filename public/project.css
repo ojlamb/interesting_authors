@@ -13,7 +13,7 @@
 /*******************************
             Nav Bar
 *******************************/
-.ui.menu {
+.ui.stackable.menu {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -23,17 +23,14 @@
     font-weight: 400;
     min-height: 2.85714286em;
     border: 0px;
-    box-shadow: none;
-    border-radius: 0;
+    margin-bottom: 0px;
+    box-shadow: 2px;
+    border-radius: 0px;
     min-height: 2.85714286em;
     color: #FFF !important;
 }
 .ui.menu .item {
     background: 0 0;
-    padding-top: 2px;
-    padding-bottom: 0px;
-    padding-left:10px;
-    padding-right:10px;
     margin-right: 15px;
     text-transform: none;
     color: #FFF;
@@ -66,4 +63,13 @@
     right: 0;
     height: 100%;
     width: 0px;
+}
+/*******************************
+            Hero
+*******************************/
+.pagehero{
+  height: 500px;
+}
+.mediafeed{
+  height: 200px;
 }
