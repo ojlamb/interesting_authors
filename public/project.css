@@ -13,13 +13,16 @@
 /*******************************
             Nav Bar
 *******************************/
+.ui.menu{
+  margin-top:0;
+}
 .ui.stackable.menu {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    background: #F26D87;
+    background: #1FC490;
     font-weight: 400;
     min-height: 2.85714286em;
     border: 0px;
@@ -31,7 +34,7 @@
 }
 .ui.menu .item {
     background: 0 0;
-    margin-right: 15px;
+    height:55px;
     text-transform: none;
     color: #FFF;
     font-weight: 400;
@@ -44,16 +47,9 @@
 }
 
 .ui.menu .dropdown.item .menu {
-    left: 0;
     min-width: calc(100% - 1px);
     background: #FFF;
-    margin: 0;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
-}
-
-.ui.stackable.menu .item {
-    padding: 4px;
-    text-align: center;
 }
 
 .ui.menu .item:before {
@@ -68,8 +64,25 @@
             Hero
 *******************************/
 .pagehero{
-  height: 500px;
+  height: 550px;
 }
+
+/*******************************
+            Media Feed
+*******************************/
 .mediafeed{
-  height: 200px;
+  height: 300px;
+  text-align: center;
+}
+#twitter-widget-0 {
+    max-width: 500px;
+    padding-top:10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+}
+.fb-page{
+  margin-left: 0px;
+  width:400px;
+  height: 300px;
 }
