@@ -66,6 +66,43 @@
 .pagehero{
   height: 550px;
 }
+#container{
+	height: 550px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+#img{
+	height:100%;
+	width:100%;
+	position: absolute;
+}
+#right_holder{
+	height:450px;
+	width:100px;
+	position:absolute;
+	right:0px;
+	top: 55px;
+}
+#left_holder{
+	height: 450px;
+	width: 100px;
+	position:absolute;
+	left: 0px;
+	top: 55px;
+}
+.left{
+  position: relative;
+  height: 10%;
+  float: left;
+  margin-top: 150px;
+}
+.right{
+  position: relative;
+  float: right;
+  height: 10%;
+  margin-top: 150px;
+}
 
 /*******************************
             Media Feed
