@@ -18,6 +18,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    position:relative;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     background: #1FC490;
     font-weight: 400;
@@ -61,9 +62,9 @@
             Hero
 *******************************/
 .pagehero{
-  top: 55px;
   height: 550px;
 }
+
 #container{
 	height: 550px;
 	width: 100%;
@@ -105,11 +106,9 @@
 /*******************************
             Media Feed
 *******************************/
-.ui.stackable.three.column.grid{
-  margin-top: 50px;
-}
 .ui.grid>.column:not(.row){
-  padding-top:5px;
+  padding-top:15px;
+  text-align: center;
 }
 #twitter-widget-0 {
     max-width: 500px;
