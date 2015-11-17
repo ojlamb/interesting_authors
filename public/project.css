@@ -13,9 +13,6 @@
 /*******************************
             Nav Bar
 *******************************/
-.ui.menu{
-  margin-top:0;
-}
 .ui.stackable.menu {
     display: -webkit-box;
     display: -webkit-flex;
@@ -64,6 +61,7 @@
             Hero
 *******************************/
 .pagehero{
+  top: 55px;
   height: 550px;
 }
 #container{
@@ -107,9 +105,11 @@
 /*******************************
             Media Feed
 *******************************/
-.mediafeed{
-  height: 300px;
-  text-align: center;
+.ui.stackable.three.column.grid{
+  margin-top: 50px;
+}
+.ui.grid>.column:not(.row){
+  padding-top:5px;
 }
 #twitter-widget-0 {
     max-width: 500px;
