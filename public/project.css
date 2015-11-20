@@ -94,12 +94,14 @@
   position: relative;
   height: 8%;
   float: left;
+  cursor:pointer;
   margin-top: 160px;
 }
 .right{
   position: relative;
   float: right;
   height: 8%;
+  cursor:pointer;
   margin-top: 160px;
 }
 
