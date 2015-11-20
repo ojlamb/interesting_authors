@@ -15,17 +15,28 @@ $( document ).ready(function() {
 
 var imagecount = 1;
 var total = 3;
+
+
 function slide(x) {
 	var Image = document.getElementById("img");
 	imagecount = imagecount + x;
 	if(imagecount > total){imagecount = 1;}
-if(imagecount < 1){imagecount = total;}
-Image.src= "Images/img" + imagecount+ ".jpg";
-}
+  if(imagecount < 1){imagecount = total;}
+  $('#img').fadeOut("slow", function(){
+    $(this).attr('src',"Images/img" + imagecount+ ".jpg").bind('onreadystatechange load', function(){
+       if (this.complete) $(this).fadeIn("slow");
+    });
+  });
+};
+
 window.setInterval(function slideA() {
 	var Image = document.getElementById('img');
 	imagecount = imagecount + 1;
 	if(imagecount >  total){imagecount = 1;}
 	if(imagecount < 1){imagecount = total;}
-	Image.src= "Images/img" + imagecount+ ".jpg";
+  $('#img').fadeOut("slow", function(){
+    $(this).attr('src',"Images/img" + imagecount+ ".jpg").bind('onreadystatechange load', function(){
+       if (this.complete) $(this).fadeIn("fast");
+    });
+  });
 },10000);
