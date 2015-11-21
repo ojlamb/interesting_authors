@@ -39,4 +39,4 @@ window.setInterval(function slideA() {
        if (this.complete) $(this).fadeIn("fast");
     });
   });
-},10000);
+},6500);

@@ -48,6 +48,7 @@
     min-width: calc(100% - 1px);
     background: #FFF;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+    text-decoration: none;
 }
 
 .ui.menu .item:before {
@@ -62,11 +63,11 @@
             Hero
 *******************************/
 .pagehero{
-  height: 550px;
+  height: 570px;
 }
 
 #container{
-	height: 550px;
+	height: 570px;
 	width: 100%;
 	margin: auto;
 	position: relative;
@@ -106,6 +107,14 @@
 }
 
 /*******************************
+            About Us
+*******************************/
+.aboutus{
+  height:400px;
+
+}
+
+/*******************************
             Media Feed
 *******************************/
 .ui.grid>.column:not(.row){
@@ -128,9 +137,10 @@
             Authors
 *******************************/
 .authors-section{
+  margin-top: 14px;
   width:auto;
   height: min;
-  padding-bottom: 30px;;
+  padding-bottom: 30px;
   background-color: #1FC490;
   color: #FFF;
   font-weight: 400;
@@ -138,7 +148,7 @@
 .meet h1{
   margin-top: 6%;
   margin-bottom: 7%;
-  font-size: 45px;
+  font-size: 43px;
   text-decoration: underline;
 }
 
@@ -156,7 +166,7 @@
 }
 
 .connect{
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 60px;
   color: #FFF;
 }
